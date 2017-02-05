@@ -1,28 +1,26 @@
 angular.module('invoicing', [])
 
 // The default logo for the invoice
-.constant('DEFAULT_LOGO', 'images/metaware_logo.png')
+.constant('DEFAULT_LOGO', 'images/lotus_hc.png')
 
 // The invoice displayed when the user first uses the app
 .constant('DEFAULT_INVOICE', {
-  tax: 13.00,
+  tax: 0.00,
   invoice_number: 10,
   customer_info: {
     name: 'Mr. John Doe',
-    web_link: 'John Doe Designs Inc.',
-    address1: '1 Infinite Loop',
-    address2: 'Cupertino, California, US',
+    web_link: 'Dharma Shop',
+    address1: 'ABC, Hungary',
     postal: '90210'
   },
   company_info: {
-    name: 'Metaware Labs',
-    web_link: 'www.metawarelabs.com',
-    address1: '123 Yonge Street',
-    address2: 'Toronto, ON, Canada',
-    postal: 'M5S 1B6'
+    name: 'Lotus Handicraft',
+    web_link: 'http://buddhistmala.com.np/',
+    address1: 'Boudha-6(inside), Kathmandu, Nepal',
+    postal: 'PAN No: 0013345898'
   },
   items:[
-    { qty: 10, description: 'Gadget', cost: 9.95 }
+    { qty: 10, description: 'Gadget', cost: 9.95, weight: 0 }
   ]
 })
 
