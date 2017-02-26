@@ -118,11 +118,12 @@ body{
 }
 
 div.container{
-  width: 960px;
+  width: 1000px;
 }
 
 #imgInp{
   display: none;
+  padding: 5px;
 }
 
 .copy {
@@ -145,4 +146,11 @@ div.container{
 
 input.img-upload {
     width: 100px;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
 }
